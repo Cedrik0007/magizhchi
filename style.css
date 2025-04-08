@@ -222,6 +222,7 @@ color: #f8f9fa;
 }
 
 
+
 /* cards end */
 
 /* cont */
@@ -305,7 +306,7 @@ color: #f8f9fa;
     margin-bottom: 10px;
 }
 .s7img:hover{
-    box-shadow: 5px 5px 30px 5px rgba(0, 21, 116, 0.692);
+    box-shadow: 5px 5px 30px 5px rgba(255, 255, 255, 0.692);
 }
 
 /* sec 6 end */
@@ -320,7 +321,8 @@ color: #f8f9fa;
 .gimg:hover {
     transform: scale(0.9);
     transition: 0.8s;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); */
+    box-shadow: 0 8px 16px rgba(76, 88, 255, 0.6);
 }
 
 /* grid end */
@@ -381,6 +383,21 @@ color: #f8f9fa;
     color: #f8f9fa;
 }
 
+.gimg {
+    object-fit: cover;
+    height: 250px;
+    border-radius: 10px;
+
+  }
+
+  p {
+    font-size: 1.125rem;        
+    line-height: 1.6;           
+    font-weight: 300;           
+    letter-spacing: 0.3px;    
+  }
+ 
+  
 
 
 
@@ -434,6 +451,7 @@ color: #f8f9fa;
     .img {
         height: 27rem;
     }
+ 
 }
 
 @media only screen and (max-width: 767px) {
